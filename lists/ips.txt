@@ -1,0 +1,5 @@
+# IPv4 blocklist source.
+# One entry per line: a single address (1.2.3.4), a CIDR (10.0.0.0/8),
+# or an inclusive range (1.2.3.4-1.2.3.255).
+# Blank lines and lines starting with '#' are ignored.
+# An optional trailing "# description" is carried into ipfilter.dat and p2p.txt.

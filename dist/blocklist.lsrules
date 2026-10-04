@@ -1,0 +1,5 @@
+{
+  "name": "ylluminate-blocklist",
+  "description": "Personal network blocklist: domains and IPv4 ranges. 0 domains.",
+  "denied-remote-domains": []
+}

@@ -1,0 +1,6 @@
+# Title: ylluminate-blocklist
+# Description: Personal network blocklist: domains and IPv4 ranges.
+# URL: https://github.com/ylluminate/ylluminate-blocklist
+# Entries: 0
+# Last updated: 2026-10-04
+#
