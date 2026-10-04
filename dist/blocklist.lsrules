@@ -1,6 +1,6 @@
 {
   "name": "ylluminate-blocklist",
-  "description": "Personal network blocklist: domains and IPv4 ranges. 48 domains.",
+  "description": "Personal network blocklist: domains and IPv4 ranges. 54 domains.",
   "denied-remote-domains": [
     "analytics-server-dot-speechifymobile.uc.r.appspot.com",
     "analytics.dev.tabxpert.com",
@@ -12,6 +12,12 @@
     "appn.center",
     "b5x-sentry.1passwordservices.com",
     "client-log-forwarder.1password.com",
+    "cloudburstcdn.com",
+    "cloudflaircdn.com",
+    "cloudflaracdn.com",
+    "cloudflingcdn.com",
+    "cloudlogcdn.com",
+    "cloudtimecdn.com",
     "comsync.lijit.com",
     "crystalknows-dataplane.rudderstack.com",
     "d.ghostery.com",

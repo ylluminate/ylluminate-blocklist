@@ -54,3 +54,11 @@ o4507590541901824.ingest.us.sentry.io  # FireShot: crash reporting tenant
 klarnaaffiliateprogram.sjv.io        # Klarna: affiliate tenant
 eu.klarnaevt.com                     # Klarna: events
 comsync.lijit.com                    # Vetted AI: ad sync
+
+# --- Free VPN Proxy - 1VPN: Cloudflare-lookalike proxy and API domains (2026-10-04) ---
+cloudflaircdn.com                    # 1VPN: proxy auth endpoint
+cloudflingcdn.com                    # 1VPN: proxy servers
+cloudburstcdn.com                    # 1VPN: proxy servers
+cloudflaracdn.com                    # 1VPN: proxy servers
+cloudtimecdn.com                     # 1VPN: proxy servers
+cloudlogcdn.com                      # 1VPN: fallback API

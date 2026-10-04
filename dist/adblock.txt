@@ -1,7 +1,7 @@
 ! Title: ylluminate-blocklist
 ! Description: Personal network blocklist: domains and IPv4 ranges.
 ! Homepage: https://github.com/ylluminate/ylluminate-blocklist
-! Entries: 48
+! Entries: 54
 ! Last modified: 2026-10-04
 !
 ||analytics-server-dot-speechifymobile.uc.r.appspot.com^
@@ -14,6 +14,12 @@
 ||appn.center^
 ||b5x-sentry.1passwordservices.com^
 ||client-log-forwarder.1password.com^
+||cloudburstcdn.com^
+||cloudflaircdn.com^
+||cloudflaracdn.com^
+||cloudflingcdn.com^
+||cloudlogcdn.com^
+||cloudtimecdn.com^
 ||comsync.lijit.com^
 ||crystalknows-dataplane.rudderstack.com^
 ||d.ghostery.com^
