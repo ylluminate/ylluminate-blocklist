@@ -1,3 +1,56 @@
 # Domain blocklist source.
 # One domain per line. Blank lines and lines starting with '#' are ignored.
 # An optional trailing "# note" explains why the entry is here.
+
+# --- Browser extension telemetry and ad endpoints (extension audit, 2026-10-03) ---
+# Vendor-specific hosts only. Shared services (Google Analytics, sentry.io, PostHog,
+# Amplitude, Segment, affiliate networks) are deliberately NOT listed: blocking them
+# would also break first-party use.
+telemetry.1passwordservices.com      # 1Password: Snowplow collector
+b5x-sentry.1passwordservices.com     # 1Password: crash reporting
+client-log-forwarder.1password.com   # 1Password: log forwarder
+d.ghostery.com                       # Ghostery: metrics
+anonymous-communication.ghostery.net # Ghostery: WhoTracks.Me reporting
+safe-browsing-quorum.privacy.ghostery.net  # Ghostery: reporting config
+ping.getadblock.com                  # AdBlock: usage ping
+ping-retry.getadblock.com            # AdBlock: usage ping retry
+log.getadblock.com                   # AdBlock: error log
+events.blockerx.net                  # BlockerX: user analytics
+api64.com                            # Cookie Editor (hotcleaner): beacon
+appn.center                          # Cookie Editor (hotcleaner): CSP report
+op2.ai-chat-exporter.com             # AI Chat Exporter: OpenPanel proxy
+op2.ai-chat-exporter.net             # AI Chat Exporter: OpenPanel proxy
+op2.grokexporter.com                 # Grok Exporter: OpenPanel proxy
+phus.chatgptexporter.com             # ChatGPT Exporter: PostHog proxy
+otel.getautoclicker.com              # Auto Clicker: OpenTelemetry exporter
+events.vitonsky.net                  # Linguist: analytics
+analytics.tabxpert.com               # TabXpert: analytics proxy
+analytics.dev.tabxpert.com           # TabXpert: analytics proxy (dev)
+analytics.zight.com                  # Zight: analytics
+eventmonitoringpro.com               # Coupert: event endpoint
+l.coupert.com                        # Coupert: event endpoint
+crystalknows-dataplane.rudderstack.com  # Crystal: RudderStack tenant
+lustre-dataplane.rudderstack.com     # Vetted AI: RudderStack tenant
+analytics-server-dot-speechifymobile.uc.r.appspot.com  # Speechify: analytics server
+diagnostics.api.speechify.com        # Speechify: diagnostics
+ping.wappalyzer.com                  # Wappalyzer: uploads visited hostnames
+us-central1-webinarstvus.cloudfunctions.net  # Chrome Audio Capture: sends visited page URL
+smartcleaner.online                  # Cleaner: beacon and server-opened tabs
+theclean.site                        # The Cleaner: beacon and server-opened tabs
+syncxmlbbt.com                       # Browser Boost: remote config poll
+ext-ads-mvp.captain-products.workers.dev  # Dark Mode for Google Docs: ad impressions and clicks
+appbox.space                         # Dark Mode for Google Docs: event tracking
+o526868.ingest.us.sentry.io          # Adblock Plus / AdBlock: crash reporting tenant
+o475874.ingest.sentry.io             # Ghostery: crash reporting tenant
+o197999.ingest.sentry.io             # Honey: crash reporting tenant
+o24547.ingest.sentry.io              # Klarna: crash reporting tenant
+o1169684.ingest.sentry.io            # Media Harvest: crash reporting tenant
+o1095749.ingest.us.sentry.io         # SimplyCodes: crash reporting tenant
+o218829.ingest.us.sentry.io          # TabXpert: crash reporting tenant
+o4506814553522176.ingest.sentry.io   # WhatFont: crash reporting tenant
+o1158394.ingest.us.sentry.io         # Claude extension: crash reporting tenant
+o4509354486530048.ingest.de.sentry.io  # DeepL: crash reporting tenant
+o4507590541901824.ingest.us.sentry.io  # FireShot: crash reporting tenant
+klarnaaffiliateprogram.sjv.io        # Klarna: affiliate tenant
+eu.klarnaevt.com                     # Klarna: events
+comsync.lijit.com                    # Vetted AI: ad sync

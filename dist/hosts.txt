@@ -1,6 +1,54 @@
 # Title: ylluminate-blocklist
 # Description: Personal network blocklist: domains and IPv4 ranges.
 # URL: https://github.com/ylluminate/ylluminate-blocklist
-# Entries: 0
+# Entries: 48
 # Last updated: 2026-10-04
 #
+0.0.0.0 analytics-server-dot-speechifymobile.uc.r.appspot.com
+0.0.0.0 analytics.dev.tabxpert.com
+0.0.0.0 analytics.tabxpert.com
+0.0.0.0 analytics.zight.com
+0.0.0.0 anonymous-communication.ghostery.net
+0.0.0.0 api64.com
+0.0.0.0 appbox.space
+0.0.0.0 appn.center
+0.0.0.0 b5x-sentry.1passwordservices.com
+0.0.0.0 client-log-forwarder.1password.com
+0.0.0.0 comsync.lijit.com
+0.0.0.0 crystalknows-dataplane.rudderstack.com
+0.0.0.0 d.ghostery.com
+0.0.0.0 diagnostics.api.speechify.com
+0.0.0.0 eu.klarnaevt.com
+0.0.0.0 eventmonitoringpro.com
+0.0.0.0 events.blockerx.net
+0.0.0.0 events.vitonsky.net
+0.0.0.0 ext-ads-mvp.captain-products.workers.dev
+0.0.0.0 klarnaaffiliateprogram.sjv.io
+0.0.0.0 l.coupert.com
+0.0.0.0 log.getadblock.com
+0.0.0.0 lustre-dataplane.rudderstack.com
+0.0.0.0 o1095749.ingest.us.sentry.io
+0.0.0.0 o1158394.ingest.us.sentry.io
+0.0.0.0 o1169684.ingest.sentry.io
+0.0.0.0 o197999.ingest.sentry.io
+0.0.0.0 o218829.ingest.us.sentry.io
+0.0.0.0 o24547.ingest.sentry.io
+0.0.0.0 o4506814553522176.ingest.sentry.io
+0.0.0.0 o4507590541901824.ingest.us.sentry.io
+0.0.0.0 o4509354486530048.ingest.de.sentry.io
+0.0.0.0 o475874.ingest.sentry.io
+0.0.0.0 o526868.ingest.us.sentry.io
+0.0.0.0 op2.ai-chat-exporter.com
+0.0.0.0 op2.ai-chat-exporter.net
+0.0.0.0 op2.grokexporter.com
+0.0.0.0 otel.getautoclicker.com
+0.0.0.0 phus.chatgptexporter.com
+0.0.0.0 ping-retry.getadblock.com
+0.0.0.0 ping.getadblock.com
+0.0.0.0 ping.wappalyzer.com
+0.0.0.0 safe-browsing-quorum.privacy.ghostery.net
+0.0.0.0 smartcleaner.online
+0.0.0.0 syncxmlbbt.com
+0.0.0.0 telemetry.1passwordservices.com
+0.0.0.0 theclean.site
+0.0.0.0 us-central1-webinarstvus.cloudfunctions.net
